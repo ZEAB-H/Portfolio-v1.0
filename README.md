@@ -1,3 +1,3 @@
 # Portfolio-v1.0
 
-a simple web app on development stage!!
+a simple personal web app on development stage!!
