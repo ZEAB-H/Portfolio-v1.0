@@ -4,225 +4,301 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Dev-ABEL</title>
+    <title>DEV-ABEL</title>
+
+    <!-- font awesome cdn link  -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+
+    <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="https://unpkg.com/boxicons@latest/css/boxicons.min.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Rubik:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet">
-    <link rel="stylesheet"  type="text/css"    href="./style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
 
 </head>
 <body>
-
-    <!-- header -->
-    <header>
-        <a href="#" class="logo">Dev-<span>ABEL</span></a>
-        <div class="bx bx-menu" id="menu-icon"></div>
-
-        <ul class="navbar">
-            <li::marker ><a href="#home">Home</a></li>
-            <li::marker><a href="#about">About me</a></li>
-            <li::marker><a href="#services">Services</a></li>
-            <li::marker><a href="#resume">resume</a></li>
-            <li::marker><a href="#contact">Contact me</a></li>
-        </ul>
-    </header> 
-
-
-    <!-- start home -->
-
-    <section class="home" id="home">
-        <div class="home-text">
-            <h5>Hello, I am</h5>
-            <h1>Abel Hailemichael</h1>
-            <h6>I am passionate web <span>Developer</span></h6>
-            <p>I design and develop services for customers of all sizes,specializing in creating stylish,
-                modern websites, web services and online stores.
-            </p>
-            <a href="#" class="btn">Download CV</a>
-        </div>
-        <div class="home-img" >
-        <img src="img/my.png"  alt="photo of me" width="600" height="400">
-        </div>
-    </section>
     
-    <!-- start about -->
-      <section class="about" id="about">
-        <div class="about-img">
-            <img src="img/about.jpg"  height=auto alt="about image">
-            <br>
+<!-- header section starts  -->
+
+<header>
+
+    <div id="menu-bars" class="fas fa-bars"></div>
+
+    <nav class="navbar">
+        <a href="#home">home</a>
+        <a href="#about">about</a>
+        <a href="#services">services</a>
+        <a href="#portfolio">portfolio</a>
+        <a href="#blogs">blogs</a>
+        <a href="#contact">contact</a>
+    </nav>
+
+</header>
+
+<!-- header section ends -->
+
+<!-- home section starts  -->
+
+<section class="home" id="home">
+
+    <div id="particles-js"></div>
+
+    <div class="content">
+        <img class="tilt" src="images/home-image.jpg" alt="">
+        <h3> ABEL  <span>HAILEMICHAEL</span> </h3>
+        <p> i am a <span class="typing-text"> front end developer </span> </p>
+        <a href="#about" class="btn">about me</a>
+    </div>
+
+</section>
+
+<!-- home section ends -->
+
+<!-- about section starts  -->
+
+<section class="about" id="about">
+
+    <h1 class="heading"> about <span>me</span> </h1>
+
+    <div class="row">
+
+        <div class="image">
+            <img class="tilt" src="images/about-pic.jpg" alt="">
         </div>
 
-        <div class="about-text" >
-            <h3>About me</h3>
-            <h2>I am an aspiring full stack developer studying Computer science at <span> Addis Ababa University</span></h2>
-            <p>I am an aspiring full stack developer with a more than a year experience in the Web development area. 
-            I can code and create web elements for amazing people around the world. 
-            I like to work with new people. New people new experiences</p>
-            <div class="count">
-                    <a href="#" ><span>1+</span> Projects</a>
-                    <a href="#" ><span>1+</span> Satisfied Clients</a>
-            </div>
-
-            <div class="main-btn">
-                <a href="" class="btn">Contact me</a>
-                <a href="" class="btn">Portfolio Projects</a>
-              
-            </div>
-
-        </div>
-      </section>
-      <!-- start service  -->
-        <section class="services" id="services">
-            <div class="center">
-            <h3>WHAT I DO?</h3>
-        </div>  
-
-        <div class="service-content">
-            <!-- use Boxicons for the different tools here -->
-            <div class="row">
-                <i class='bx bx-cast'></i>
-                <h3>Web Development</h3>
-                <p>I am known for the clean designs and 
-                    clean code practice of my projects.</p>
-            </div>
-            <div class="row">
-                <i class="bx bx-cast"></i>
-                <h3>Web Development</h3>
-                <p>I am known for the clean designs and 
-                    clean code practice of my projects.</p>
-            </div>
-            <div class="row">
-                <i class='bx bx-cast'></i>
-                <h3>Web Development</h3>
-                <p>I am known for the clean designs and 
-                    clean code practice of my projects.</p>
-            </div>
-            <div class="row">
-                <i class='bx bx-cast'></i>
-                <h3>Web Development</h3>
-                <p>I am known for the clean designs and 
-                    clean code practice of my projects.</p>
-            </div>
-            <div class="row">
-                <i class='bx bx-cast'></i>
-                <h3>Web Development</h3>
-                <p>I am known for the clean designs and 
-                    clean code practice of my projects.</p>
-            </div>
-            <div class="row">
-                <i class='bx bx-cast'></i>
-                <h3>Web Development</h3>
-                <p>I am known for the clean designs and 
-                    clean code practice of my projects.</p>
-            </div>
-
-        </div>
-        </section>
-
-        <!-- cta -->
-        <section class="cta">
-            <h4>Have Any Project In Your Mind?</h4>
-            <h2>Just say hello!!!</h2>
-            <a href="#" class="btn">Hire Me</a>
-
-        </section>
-
-
-        <!-- start resume -->
-        <section class="resume" id="resume">
-            <div class="center">
-                <h3>Education & Experience</h3>
-
-            </div>
-            <div class="resume-content">
+        <div class="content">
+            <h3> my name is <span> ABEL HAILEMICHAEL </span> </h3>
+            <p class="info">I am an aspiring full stack developer.I can code and create web elements for amazing people around the world. 
+                I like to work with new people. New people new experiences.</p>
+            <div class="box-container">
                 <div class="box">
-                    <h6>March 2022- April 2022</h6>
-                    <h4>Virtual Internship at <span>Walmart</span></h4>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Provident, minima 
-                        reiciendis deserunt dolorum repellat quidem quia. Consequuntur fugiat veniam,
-                         laborum expedita autem, adipisci natus modi ea mollitia optio voluptates a!</p>
-                    <h5>Addis Ababa University</h5>
-
-                  </div>
-                  <div class="box">
-                    <h6>March 2022- April 2022</h6>
-                    <h4>Virtual Internship at <span>Walmart</span></h4>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Provident, minima 
-                        reiciendis deserunt dolorum repellat quidem quia. Consequuntur fugiat veniam,
-                         laborum expedita autem, adipisci natus modi ea mollitia optio voluptates a!</p>
-                    <h5>Addis Ababa University</h5>
-
-                  </div>
-                  <div class="box">
-                    <h6>March 2022- April 2022</h6>
-                    <h4>Virtual Internship at <span>Walmart</span></h4>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Provident, minima 
-                        reiciendis deserunt dolorum repellat quidem quia. Consequuntur fugiat veniam,
-                         laborum expedita autem, adipisci natus modi ea mollitia optio voluptates a!</p>
-                    <h5>Addis Ababa University</h5>
-
-                  </div>
-                  <div class="box">
-                    <h6>March 2022- April 2022</h6>
-                    <h4>Virtual Internship at <span>Walmart</span></h4>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Provident, minima 
-                        reiciendis deserunt dolorum repellat quidem quia. Consequuntur fugiat veniam,
-                         laborum expedita autem, adipisci natus modi ea mollitia optio voluptates a!</p>
-                    <h5>Addis Ababa University</h5>
-
-                  </div>
-                  <div class="box">
-                    <h6>March 2022- April 2022</h6>
-                    <h4>Virtual Internship at <span>Walmart</span></h4>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Provident, minima 
-                        reiciendis deserunt dolorum repellat quidem quia. Consequuntur fugiat veniam,
-                         laborum expedita autem, adipisci natus modi ea mollitia optio voluptates a!</p>
-                    <h5>Addis Ababa University</h5>
-
-                  </div>
-                  <div class="box">
-                    <h6>March 2022- April 2022</h6>
-                    <h4>Virtual Internship at <span>Walmart</span></h4>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Provident, minima 
-                        reiciendis deserunt dolorum repellat quidem quia. Consequuntur fugiat veniam,
-                         laborum expedita autem, adipisci natus modi ea mollitia optio voluptates a!</p>
-                    <h5>Addis Ababa University</h5>
-                  </div>
-
-
+                    <p> <span> age: </span> 21 </p>
+                    <p> <span> gender: </span> male </p>
+                    <p> <span> experience  : </span> 1 year </p>
+                    <p> <span> freelance : </span> available </p>
+                </div>
+                <div class="box">
+                    <p> <span> language : </span> Amharic/Afan Oromo/english/Ethiopian sign language </p>
+                    <p> <span> phone : </span> +251949327898 </p>
+                    <p> <span> email : </span> abelhailemichael30@gmail.com </p>
+                    <p> <span> address : </span> Addis Ababa, Ethiopia </p>
+                </div>
             </div>
-        </section>
-
-
-
-     <!-- start contact -->
-     <section class="contact" id="contact">
-         <div class="center">
-             <h3>Contact me</h3>
-             </div>
-        <div class="contact-form">
-            <form action="">
-                <input type=""  placeholder="Yout name" required>
-                <input type="email" name="" id  placeholder="Your email address" required> 
-                <textarea name="" id="" cols="30" rows="10" placeholder="Project description"></textarea>
-                <input type="submit" name="" value="send" class="send-btn" >
-            </form>
+            <a href="#" class="btn">download CV</a>
         </div>
-     </section>
 
+    </div>
 
-    <!-- start copyriting -->
+</section>
+
+<!-- about section ends -->
+
+<!-- services section starts  -->
+
+<section class="services" id="services">
+
+    <h1 class="heading"> <span> my </span> services </h1>
+
+    <div class="box-container">
+
+        <div class="box tilt">
+            <i class="fas fa-code"></i>
+            <h3>web development</h3>
+            <p>I develop services for customers of all sizes,specializing in creating stylish,
+                modern websites, web services and online stores.</p>  </div>
+
+        <div class="box tilt">
+            <i class="fas fa-paint-brush"></i>
+            <h3>graphic design</h3>
+            <p>I can create a visual content to communicate message with the customer professionally</p>
+        </div>
+
+        <div class="box tilt">
+            <i class="fas fa-bullhorn"></i>
+            <h3>Digital marketing</h3>
+            <p>I can promote brands to connect with potential customers using the internet and other forms of digital communications.</p>
+        </div>
+
+        <div class="box tilt">
+            <i class="fas fa-envelope"></i>
+            <h3>email marketing</h3>
+            <p>I can make the customers on your email list aware of new products, discounts, and other services</p></div>
+
+        <div class="box tilt">
+            <i class="fas fa-mobile"></i>
+            <h3>Responsive designs</h3>
+            <p>I can make websites to render well
+                 on a variety of devices and window or screen sizes 
+                 from minimum to maximum display size to ensure usability and satisfaction.</p>
+        </div>
+
+        <div class="box tilt">
+            <i class="fab fa-wordpress"></i>
+            <h3>wordpress</h3>
+            <p>I can develop cool wordpress sites.</p>
+        </div>
+
+    </div>
+
+</section>
+
+<!-- services section ends -->
+
+<!-- portfolio section starts  -->
+
+<section class="portfolio" id="portfolio">
+
+    <h1 class="heading"> <span> my </span> portfolio </h1>
+
+    <div class="box-container">
+
+        <div class="box tilt">
+            <img src="images/portofolio1.png" alt="">
+            <div class="content">
+                <a href="#" class="btn">Live Demo</a>
+                <a href="#" class="btn"><i class="fa-brands fa-github"></i>Gituhub</a>
+            </div>
+        </div>
+
+        <div class="box tilt">
+            <img src="images/comingsoon.jpg" alt="">
+            <div class="content">
+                <a href="#" class="btn">learn more</a>
+            </div>
+        </div>
+
+    </div>
+    
+</section>
+
+<!-- portfolio section ends -->
+
+<!-- blogs section starts  -->
+
+<section class="blogs" id="blogs">
+
+    <h1 class="heading"> <span> my </span> blogs </h1>
+
+    <div class="box-container">
+        
+        <div class="box tilt">
+            <img src="images/blog-img-1.jpg" alt="">
+            <h3> 30 ways to be a better Programmer — Part I</h3>
+            <p>Hello dear Digital Passion families,how is everything? as you know this is our first post on this platform and today we will start our talk with about some of the scientifically proven ways of becoming a better programmer and share some link to help you folks to be the outstanding ......</p>
+             <a href="https://digital-passion.medium.com/30-ways-to-be-a-better-programmer-part-i-d93e4554294b" class="btn">learn more</a>
+        </div>
+
+        <div class="box tilt">
+            <img src="images/blog-img-2.jpg" alt="">
+            <h3> coming soon </h3>
+             <a href="#" class="btn">learn more</a>
+        </div>
+
+        <div class="box tilt">
+            <img src="images/blog-img-3.jpg" alt="">
+            <h3> Coming soon.. </h3>
+                <a href="#" class="btn">learn more</a>
+        </div>
+
+    </div>
+
+</section>
+
+<!-- blogs section ends -->
+
+<!-- contact section starts  -->
+
+<section class="contact" id="contact">
+
+    <h1 class="heading"> contact <span> me </span> </h1>
+
+    <div class="row">
+
+        <div class="image">
+            <img class="tilt" src="images/contact-img.svg" alt="">
+        </div>
+
+        <form action="">
+
+            <div class="inputBox">
+                <input type="text" placeholder="name">
+                <input type="email" placeholder="email">
+            </div>
+
+            <input type="text" placeholder="subject" class="box">
+
+            <textarea placeholder="message" name="" id="" cols="30" rows="10"></textarea>
+
+            <input type="submit" class="btn" value="send message">
+
+        </form>
+
+    </div>
+
+</section>
+
+<!-- contact section ends -->
+
+<!-- footer section  -->
+
+<div class="footer"> 
      <div class="Copyright">
-            <p> Copyright @ 2022 Portfolio, All rights reserved. <br> created by <span>Dev-Abel</span></p>    
-     </div>
+    <p> Copyright @ 2022 Portfolio, All rights reserved. <br> created by <span>Dev-Abel</span></p>    
+</div>
+</div>
 
 
 
-     <!-- scroll reveal js org -->
-     <script src="https://unpkg.com/scrollreveal"></script>
-     
-    <!-- link to js  -->
-    <script type="text/javascript" src="js/script.js"></script>
+
+
+
+
+
+
+
+
+
+
+
+<!-- javascript part  -->
+
+<!-- typed.js link  -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/typed.js/2.0.12/typed.min.js"></script>
+
+<!-- particles.js links  -->
+<script src="js/particles.min.js"></script>
+<script src="js/app.js"></script>
+
+<!-- vanilla-tilt.js link  -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/vanilla-tilt/1.7.0/vanilla-tilt.min.js"></script>
+
+<script>
+
+let menu = document.querySelector('#menu-bars');
+let header = document.querySelector('header');
+
+menu.onclick = () =>{
+    menu.classList.toggle('fa-times');
+    header.classList.toggle('active');
+}
+
+window.onscroll = () =>{
+    menu.classList.remove('fa-times');
+    header.classList.remove('active');
+};
+
+var typed = new Typed('.typing-text', {
+    strings : ['front end developer', 'web designer', 'graphics designer', 'web developer','Digital marketing professional','AI enthusiast', ],
+    loop : true,
+    typeSpeed : 75
+});
+
+VanillaTilt.init(document.querySelectorAll('.tilt'),{
+    max:25
+});
+
+</script>
+
 </body>
 </html>
