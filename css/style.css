@@ -12,7 +12,7 @@
 }
 /* 
 *{
-    font-family: 'Nunito', sans-serif;
+    font-family: 'Nunito', sans-serif; 
     margin:0; padding:0;
     box-sizing: border-box;
     outline: none; border:none;
@@ -315,6 +315,7 @@ header .navbar a:hover{
 }
 
 .portfolio .box-container .box .content{
+    color: var(--2nd-main-color);
     height: 100%;
     width:100%;
     position: absolute;
